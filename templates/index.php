@@ -31,7 +31,7 @@ foreach ($data as $row) {
 	<td><?php echo $row['name'] ?></td>
 	<td><?php echo $row['sex'] ?></td>
 	<td><?php echo $center_info['name']; ?></td>
-	<td><?php echo $all_cities[$center_info['city_id']] ?></td>
+	<td><?php echo i($all_cities, $center_info['city_id'], $center_info['city_id']) ?></td>
 	<td><?php echo $row['status'] ?></td>
 </tr>
 <?php } ?>

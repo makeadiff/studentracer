@@ -2,7 +2,7 @@
 require './common.php';
 
 $html = new HTML;
-$all_cities = $sql->getById("SELECT id,name FROM City WHERE type='actual' ORDER BY name");
+$all_cities = $sql->getById("SELECT id,name FROM City ORDER BY name");
 $all_cities[0] = 'Any';
 $all_centers = $sql->getById("SELECT id,name,city_id FROM Center");
 
