@@ -4,4 +4,4 @@
 $config = $config_data + array(
 	'site_title'	=> 'StudenTRacer',
 );
-$config['site_home'] = $config_data['site_home'] . 'apps/studentracer/';
+$config['site_home'] = $config_data['site_home'] . 'apps/debug-tools/studentracer/';
